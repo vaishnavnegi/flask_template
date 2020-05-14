@@ -18,8 +18,8 @@ class Compute:
         return pow(-1, n+1)*fib[n] if is_negative else fib[n]
 
 
-    def ackermann(m, n):
-        return
+    #def ackermann(m, n):
+        #return
 
     @staticmethod
     def factorial(n):

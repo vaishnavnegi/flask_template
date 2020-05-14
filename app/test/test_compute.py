@@ -1,4 +1,4 @@
-from compute import Compute
+from app.src.models.compute import Compute
 
 
 def test_fibonacci():
@@ -11,4 +11,4 @@ def test_fibonacci():
 
 def test_factorial():
     assert Compute.factorial(5) == 120
-    assert Compute.fibonacci(0) == 1
+    assert Compute.factorial(0) == 1
