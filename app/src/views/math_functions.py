@@ -18,6 +18,10 @@ def index():
 def home():
     return render_template("home.html")
 
+@math.route('/factEndpoint')
+def factEndpoint():
+    return render_template("factEndpoint.html")
+
 
 @math.route("/fib", methods=["POST"])
 def fib_n():
